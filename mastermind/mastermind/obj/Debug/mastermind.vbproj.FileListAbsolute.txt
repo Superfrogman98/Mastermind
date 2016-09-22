@@ -1,0 +1,13 @@
+H:\2016 school year\mastermind\mastermind\bin\Debug\mastermind.exe.config
+H:\2016 school year\mastermind\mastermind\bin\Debug\mastermind.exe
+H:\2016 school year\mastermind\mastermind\bin\Debug\mastermind.pdb
+H:\2016 school year\mastermind\mastermind\bin\Debug\mastermind.xml
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.vbprojResolveAssemblyReference.cache
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.frmMastermind.resources
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.Resources.resources
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.vbproj.GenerateResource.Cache
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.exe
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.xml
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.pdb
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.frmSelectColor.resources
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.frmDifficultly.resources
