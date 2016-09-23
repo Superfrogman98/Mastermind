@@ -24,9 +24,15 @@
 
     'handles a cell click
     Private Sub dgvPlayer_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPlayer.CellClick
+        'location of color window
+        Dim intColorLocationY As Integer = Me.Location.Y + (58 + (intCurrentPlay + 1) * 60)
+        Dim intColorLocationX As Integer = Me.Location.X + (22 + e.ColumnIndex * 60)
+        Dim pntColor As New Point(intColorLocationX, intColorLocationY)
+
 
         selectedColor = Color.White
         dgvPlayer.Rows(intCurrentPlay).Cells(e.ColumnIndex).Style.SelectionBackColor = Color.SteelBlue
+        frmSelectColor.Location = pntColor
         frmSelectColor.ShowDialog()
         dgvPlayer.Rows(intCurrentPlay).Cells(e.ColumnIndex).Style.BackColor = selectedColor
         dgvPlayer.Rows(intCurrentPlay).Cells(e.ColumnIndex).Style.SelectionBackColor = selectedColor
@@ -45,6 +51,7 @@
         'location of the button
         Dim intCheckLocation = btnCheck.Location.Y
         Dim pntCheck As New Point(btnCheck.Location.X, intCheckLocation)
+
         If intCurrentPlay < 9 Then
             'validates for 4 colors and creates an array from the current row
             For intI = 0 To 3
@@ -61,7 +68,6 @@
                 strCurrentColor = dgvPlayer.Rows(intCurrentPlay).Cells(intI).Style.BackColor.Name
                 'if the current matches the keys current then adds to perfect
                 If strCurrentColor = arrKey(intI) Then
-
                     intPerfect += 1
                     'if the key has a color match in the current row, then adds to the color match
                 ElseIf Array.IndexOf(arrCurrentRow, arrKey(intI)) > -1 Then
@@ -187,4 +193,6 @@
             current.Text = ""
         Next
     End Sub
+
+
 End Class

@@ -11,3 +11,7 @@ H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.xml
 H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.pdb
 H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.frmSelectColor.resources
 H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.frmDifficultly.resources
+H:\2016 school year\mastermind\mastermind\bin\Debug\mastermind.exe.manifest
+H:\2016 school year\mastermind\mastermind\bin\Debug\mastermind.application
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.exe.manifest
+H:\2016 school year\mastermind\mastermind\obj\Debug\mastermind.application

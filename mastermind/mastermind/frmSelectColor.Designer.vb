@@ -33,54 +33,54 @@ Partial Class frmSelectColor
         'btnYellow
         '
         Me.btnYellow.BackColor = System.Drawing.Color.Yellow
-        Me.btnYellow.Location = New System.Drawing.Point(12, 12)
+        Me.btnYellow.Location = New System.Drawing.Point(1, 12)
         Me.btnYellow.Name = "btnYellow"
-        Me.btnYellow.Size = New System.Drawing.Size(75, 23)
+        Me.btnYellow.Size = New System.Drawing.Size(56, 23)
         Me.btnYellow.TabIndex = 0
         Me.btnYellow.UseVisualStyleBackColor = False
         '
         'btnGreen
         '
         Me.btnGreen.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnGreen.Location = New System.Drawing.Point(87, 12)
+        Me.btnGreen.Location = New System.Drawing.Point(1, 62)
         Me.btnGreen.Name = "btnGreen"
-        Me.btnGreen.Size = New System.Drawing.Size(75, 23)
+        Me.btnGreen.Size = New System.Drawing.Size(56, 23)
         Me.btnGreen.TabIndex = 1
         Me.btnGreen.UseVisualStyleBackColor = False
         '
         'btnBlue
         '
         Me.btnBlue.BackColor = System.Drawing.Color.Blue
-        Me.btnBlue.Location = New System.Drawing.Point(162, 12)
+        Me.btnBlue.Location = New System.Drawing.Point(1, 112)
         Me.btnBlue.Name = "btnBlue"
-        Me.btnBlue.Size = New System.Drawing.Size(75, 23)
+        Me.btnBlue.Size = New System.Drawing.Size(56, 23)
         Me.btnBlue.TabIndex = 2
         Me.btnBlue.UseVisualStyleBackColor = False
         '
         'btnAqua
         '
         Me.btnAqua.BackColor = System.Drawing.Color.Aqua
-        Me.btnAqua.Location = New System.Drawing.Point(12, 41)
+        Me.btnAqua.Location = New System.Drawing.Point(1, 37)
         Me.btnAqua.Name = "btnAqua"
-        Me.btnAqua.Size = New System.Drawing.Size(75, 23)
+        Me.btnAqua.Size = New System.Drawing.Size(56, 23)
         Me.btnAqua.TabIndex = 3
         Me.btnAqua.UseVisualStyleBackColor = False
         '
         'btnRed
         '
         Me.btnRed.BackColor = System.Drawing.Color.Red
-        Me.btnRed.Location = New System.Drawing.Point(87, 41)
+        Me.btnRed.Location = New System.Drawing.Point(1, 87)
         Me.btnRed.Name = "btnRed"
-        Me.btnRed.Size = New System.Drawing.Size(75, 23)
+        Me.btnRed.Size = New System.Drawing.Size(56, 23)
         Me.btnRed.TabIndex = 4
         Me.btnRed.UseVisualStyleBackColor = False
         '
         'btnSilver
         '
         Me.btnSilver.BackColor = System.Drawing.Color.Silver
-        Me.btnSilver.Location = New System.Drawing.Point(162, 41)
+        Me.btnSilver.Location = New System.Drawing.Point(1, 137)
         Me.btnSilver.Name = "btnSilver"
-        Me.btnSilver.Size = New System.Drawing.Size(75, 23)
+        Me.btnSilver.Size = New System.Drawing.Size(56, 23)
         Me.btnSilver.TabIndex = 5
         Me.btnSilver.UseVisualStyleBackColor = False
         '
@@ -88,7 +88,8 @@ Partial Class frmSelectColor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(249, 77)
+        Me.BackColor = System.Drawing.SystemColors.Info
+        Me.ClientSize = New System.Drawing.Size(60, 169)
         Me.ControlBox = False
         Me.Controls.Add(Me.btnSilver)
         Me.Controls.Add(Me.btnRed)
@@ -96,9 +97,12 @@ Partial Class frmSelectColor
         Me.Controls.Add(Me.btnBlue)
         Me.Controls.Add(Me.btnGreen)
         Me.Controls.Add(Me.btnYellow)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.MinimizeBox = False
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Location = New System.Drawing.Point(100, 0)
+        Me.MaximumSize = New System.Drawing.Size(60, 169)
+        Me.MinimumSize = New System.Drawing.Size(60, 169)
         Me.Name = "frmSelectColor"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Select Color"
         Me.ResumeLayout(False)
 

@@ -22,7 +22,7 @@ Partial Class frmMastermind
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.NewGameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -101,8 +101,8 @@ Partial Class frmMastermind
         '
         'colColor1
         '
-        DataGridViewCellStyle2.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
-        Me.colColor1.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
+        Me.colColor1.DefaultCellStyle = DataGridViewCellStyle1
         Me.colColor1.HeaderText = "Color 1"
         Me.colColor1.Name = "colColor1"
         Me.colColor1.ReadOnly = True
@@ -367,6 +367,7 @@ Partial Class frmMastermind
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frmMastermind"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "MasterMind"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
